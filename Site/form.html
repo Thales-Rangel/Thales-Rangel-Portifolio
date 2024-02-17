@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Thales Rangel | Desenvolvolvedor Back-End em desenvolvimeto web e de software</title>
+
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="CSS/StyleForm.css">
+    <link rel="stylesheet" href="CSS/Responsive.css">
+</head>
+
+<body>
+    <nav>
+        <div class="name">
+            <a href="index.html">
+                <h1>Thales Rangel</h1>
+            </a>
+        </div>
+
+        <div class="menu">
+            <img src="img/menu.png" alt="" id="dropdown-menu">
+
+            <div class="dropdown">
+                <a href="index.html#Sobre-mim">Sobre mim</a>
+                <a href="index.html#Projetos">Projetos</a>
+                <a href="index.html#Conhecimentos">Conhecimentos</a>
+                <a href="form.html" id="contactButton">Entre em Contato</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="heading">
+            <h1>Compartilhe os
+                <br>
+                detalhes do seu projeto
+            </h1>
+            <p>Preencha as informações do formulário e dê o pontapé inicial para o seu projeto. Entrarei em contato com
+                você pelo WhatsApp informado.</p>
+        </div>
+
+        <form action="" id="contract-form">
+            <div class="element">
+                <label for="name">Seu Nome</label>
+                <input required="" label="Nome" name="name" type="text" inputmode="text" autocomplete="on"
+                    placeholder="" id="name">
+            </div>
+
+            <div class="element">
+                <label for="email">E-mail</label>
+                <input required="" label="E-mail" name="email" type="email" inputmode="email" autocomplete="email"
+                    placeholder="example@gmail.com" id="email">
+            </div>
+
+            <div class="element">
+                <label for="whats">WhatsApp</label>
+                <input required="" label="Whatsapp" name="whatsapp" placeholder="(12) 93456-7890" type="tel"
+                    inputmode="tel" autocomplete="tel" id="whats">
+            </div>
+
+            <div class="deadline">
+                <label>Qual o prazo que você pretende receber o projeto?</label>
+
+                <div class="deadline-radios">
+                    <div class="radio">
+                        <input type="radio" id="TwoWeek" name="tempo" value="Uma Semana">
+                        <label for="TwoWeek">Duas semanas</label>
+                    </div>
+
+                    <div class="radio">
+                        <input type="radio" id="OneMounth" name="tempo" value="Um Mês">
+                        <label for="OneMounth">Um mês</label>
+                    </div>
+
+                    <div class="radio">
+                        <input type="radio" id="NoProblem" name="tempo" value="Tempo não é problema">
+                        <label for="NoProblem">Tempo não é problema</label>
+                    </div>
+
+                    <div class="radio">
+                        <input type="radio" id="Speed" name="tempo" value="O mais rápido">
+                        <label for="Speed">O mais rápido possivel</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="element">
+                <label for="level">Qual o nível do seu projeto?</label>
+
+                <div class="levelProject">
+                    <div style="width: 35.5%; border-right: 2px solid #292f39;">
+                        <div class="level-radio">
+                            <input type="radio" name="level" id="pequeno" value="Pequeno Projeto">
+                        </div>
+
+                        <h4>Pequeno</h4>
+
+                        <p>Exemplo:
+                            <br>
+                            Desenvolvimento de um site simples, um layout ou um desing a base de HTML e CSS
+                        </p>
+                    </div>
+                    <div>
+                        <div class="level-radio">
+                            <input type="radio" name="level" id="medio" value="Medio Projeto">
+                        </div>
+                        <h4>Médio</h4>
+
+                        <p>Exemplo:
+                            <br>
+                            Desenvolvimento de um algoritmo com pouca ou nenhuma orientação a objetos
+                        </p>
+                    </div>
+                    <div style="width: 35.5%; border-left: 2px solid #292f39;">
+                        <div class="level-radio">
+                            <input type="radio" name="level" id="grande" value="Grande Projeto">
+                        </div>
+                        <h4>Grande</h4>
+
+                        <p>Exemplo:
+                            <br>
+                            Desenvolvimento de um software ou algoritmo, com gerenciamento ou gestão de dados
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="element">
+                <label>Descreva seu projeto</label>
+                <textarea required name="desc" id="description" cols="30" rows="10"
+                    placeholder="Desecreva seu projeto"></textarea>
+            </div>
+        </form>
+
+        <div class="foonting">
+            <button type="submit" form="contract-form">Enviar →</button>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="form">
+            <h2>Vamos desenvolver um projeto juntos?</h2>
+
+            <p>Preencha o formulário para iniciarmos um projeto:</p>
+
+            <a href="#" id="formButton">Iniciar projeto →</a>
+        </div>
+
+        <div class="contatos">
+            <div id="perfis">
+                <h2>Perfis</h2>
+                <a href="https://github.com/Thales-Rangel" target="_blank">GitHub</a>
+            </div>
+
+            <div id="contatos">
+                <h2>Contato</h2>
+
+                <p>E-mail</p>
+                <a href="mailto:thalesranDev2024@gmail.com?subject=&body="
+                    target="_blank">thalesranDev2024@gmail.com</a>
+
+                <p>WhatsApp</p>
+                <a href="#" target="_blank">(00) 0000-0000</a>
+            </div>
+        </div>
+
+        <div id="copyright">
+            <p>© 2024 Thales Rangel. Todos os direitos reservados</p>
+            <a href="#">Voltar ao topo ↺</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(#191e24, #0d1117, #090b0f, black);
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+
+nav {
+    /*border: 2px solid red;*/
+    display: flex;
+    flex-flow: row wrap;
+    height: 80px;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #090b0f;
+}
+
+.name {
+    width: 20%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.name a {
+    text-decoration: none;
+    color: white;
+}
+
+.name h1 {
+    font-family: 'Protest Riot', sans-serif;
+    margin: 0 auto;
+    text-shadow: 4px 8px black;
+}
+
+.menu {
+    width: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu #dropdown-menu {
+    width: 50px;
+}
+
+.menu a {
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+}
+
+.menu a:hover {
+    border-top: 4px solid blue;
+}
+
+.menu #contactButton {
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    border: none;
+
+    padding: 10px 25px;
+
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+.menu #contactButton:hover {
+    opacity: 0.9;
+}
+
+header {
+    /*border: 2px solid red;*/
+    padding-top: 80px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline {
+    margin-left: 10%;
+    width: 40%;
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Protest Riot', sans-serif;
+    text-shadow: 4px 8px black;
+}
+
+.headline p {
+    color: gray;
+    text-align: left;
+}
+
+.headline-bnt {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    background-color: blue;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.headline-bnt:hover {
+    padding: 21px;
+    font-size: 105%;
+}
+
+#viewPort {
+    background-color: transparent;
+}
+
+#viewPort:hover {
+    opacity: 0.7;
+    padding: 20px;
+    font-size: 100%;
+}
+
+.headline-img {
+    width: 40%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.headline-img img {
+    width: 100%;
+}
+
+.about-me {
+    border: 1px solid #1d232c;
+    display: flex;
+    flex-flow: column row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 0 8px 16px black;
+    background-color: #0d1117;
+}
+
+.about-me-img {
+    width: 20%;
+}
+
+.about-me-img img {
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid blue;
+}
+
+.about-me-text {
+    /*border: 2px solid red;*/
+    width: 80%;
+    padding-left: 15px;
+}
+
+.projects {
+    /*border: 2px solid red;*/
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.projects h3 {
+    width: 80%;
+}
+
+.projects p {
+    width: 80%;
+}
+
+.table {
+    outline: 2px solid #1d232c;
+    margin: 0 2.5%;
+    width: 75%;
+    display: flex;
+    background-color: #040506;
+    box-shadow: 8px 10px black;
+    margin-bottom: 5%;
+}
+
+.table h4 {
+    margin-top: 10px;
+}
+
+.table p {
+    width: 100%;
+
+}
+
+.table div {
+    width: 33%;
+    border: 1px solid #646970;
+}
+
+
+.card {
+    border: 1px solid #1d232c;
+    width: 35%;
+    min-height: 271px;
+    margin-left: 2.5%;
+    margin-bottom: 5%;
+    margin-right: 2.5%;
+    background-color: #090b0f;
+    border-radius: 5px;
+    box-shadow: 8px 10px black;
+    padding-bottom: 20px;
+}
+
+.card:hover {
+    box-shadow: none;
+    box-shadow: 0px 0px 2px 2px rgb(216, 230, 237);
+}
+
+.card h4 {
+    margin-top: 25px;
+}
+
+.card p {
+    width: 100%;
+}
+
+.projectButton {
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+    padding: 10px 25px;
+}
+
+.projectButton:hover {
+    opacity: 0.7;
+}
+
+.conhecimentos {
+    padding-left: 10%;
+    padding-right: 10%;
+    border-top: 2px solid #1d232c;
+    background: linear-gradient(#1d222b, #07090d, #07090d, #07090d, #07090d, #090b0f);
+    box-shadow: 0px 0px 0px 3px black;
+
+    padding-bottom: 100px;
+}
+
+.lenguages {
+    display: flex;
+    justify-content: space-evenly;
+    /*max-width: 100rem;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*flex-wrap: wrap;*/
+}
+
+.lenguages img {
+    padding: 16px;
+    width: 100px;
+}
+
+footer {
+    /*border: 2px solid red;*/
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-top: 5px solid rgb(16, 16, 56);
+    background-color: black;
+    box-shadow: 0 0 0 5px rgb(10, 10, 10);
+}
+
+footer a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #878b92;
+}
+
+.form {
+    /*border: 1px solid red;*/
+    width: 50%;
+}
+
+.form h2 {
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.form p {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#formButton {
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#formButton:hover {
+    background-color: white;
+    color: black;
+}
+
+.contatos {
+    /*border: 1px solid red;*/
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.contatos #perfis {
+    width: 25%;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+.contatos #contatos {
+    width: 50%;
+    justify-content: center;
+}
+
+#contatos p {
+    color: #878b92;
+}
+
+#contatos a {
+    color: white;
+}
+
+.form,
+.contatos {
+    /*border: 1px solid green;*/
+    margin-bottom: 90px;
+    height: auto;
+}
+
+#copyright {
+    width: 100%;
+    border-top: 1px solid #1d232c;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+#copyright p {
+    /*border: 1px solid red;*/
+    width: 85%;
+}
+
+#copyright a {
+    width: 15%;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 16px;
+    color: white;
+    /*border: 1px solid red;*/
+}

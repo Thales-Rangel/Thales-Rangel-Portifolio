@@ -1,0 +1,232 @@
+@media screen and (max-width: 401px) {
+    .name h1 {
+        font-size: 20px;
+    }
+
+    .name {
+        width: 50%;
+        margin: 0;
+    }
+
+    .menu {
+        width: 50%;
+    }
+
+    .content {
+        margin: 0 !important;
+        margin-bottom: 50px !important;
+    }
+
+}
+
+@media screen and (max-width: 511px) {
+    .heading h1 {
+        font-size: 30px !important;
+    }
+
+    .conhecimentos {
+        text-align: center;
+    }
+
+    .lenguages {
+        display: none;
+    }
+
+    .name {
+        width: 64% !important;
+        margin-left: 18%;
+    }
+
+    .menu {
+        width: 18% !important;
+    }
+}
+
+@media screen and (max-width: 781px) {
+    header {
+        padding-top: 120px !important;
+    }
+
+    .headline {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .headline-img {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .headline-img img {
+        width: 50% !important;
+    }
+
+    .about-me {
+        flex-flow: row wrap !important;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    .about-me-img {
+        width: 100% !important;
+    }
+
+    .about-me-img img {
+        width: 25% !important;
+    }
+
+    .about-me-text {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .table {
+        display: block;
+        width: 100%;
+    }
+
+    .card,
+    .table div {
+        width: 100% !important;
+    }
+
+    footer {
+        padding: 0;
+    }
+
+    .form {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .contatos {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    #perfis {
+        margin: 0 !important;
+        width: 100% !important;
+    }
+
+    #contatos {
+        width: 100% !important;
+    }
+
+    #copyright p {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    #copyright a {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 832px) {
+    .content {
+        padding: 0;
+        padding-top: 160px;
+        margin-bottom: 50px;
+    }
+
+    .heading {
+        text-align: center;
+    }
+
+    .element,
+    .deadline {
+        width: 100%;
+    }
+
+    .foonting {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .name {
+        text-align: center !important;
+    }
+
+    .headline {
+        text-align: center;
+    }
+
+    .headline p {
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-width: 832px) and (min-width: 871px) {
+    .contatos #perfis {
+        width: 40% !important;
+        margin-left: 10% !important;
+    }
+
+}
+
+@media screen and (max-width: 1030px) and (min-width: 511px) {
+    .menu {
+        width: 10% !important;
+    }
+
+    .name {
+        width: 80% !important;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+
+    .dropdown {
+        position: fixed;
+        right: 70px;
+        top: 10px;
+        width: 200px;
+        display: none;
+        border: 3px solid black;
+    }
+
+    .dropdown a {
+        display: block;
+        border: 2px solid blue;
+        border-bottom: 0;
+        color: white !important;
+        background-color: #0d1117;
+    }
+
+    .dropdown a:hover {
+        border: 0;
+        background-color: blue;
+        color: black;
+    }
+
+    .menu #contactButton {
+        margin: 0 !important;
+        padding: 20px 16px !important;
+        border-radius: 0 !important;
+        background-color: #0d1117;
+        border: 2px solid blue;
+    }
+
+    .menu #contactButton:hover {
+        background-color: blue;
+        text-transform: uppercase;
+        font-size: 19px;
+    }
+
+    #dropdown-menu {
+        display: block;
+    }
+
+    .menu:hover .dropdown {
+        display: block !important;
+    }
+}
+
+@media screen and (min-width: 1030px) {
+    #dropdown-menu {
+        display: none;
+    }
+
+}
