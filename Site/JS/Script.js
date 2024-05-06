@@ -12,7 +12,8 @@ form.addEventListener('submit', (event) => {
         return;
     }
 
-    if (email.value.trim() === "" || isEmailValid(email.value)) {
+    if (email.value.trim() === "" || !isEmailValid(email)) {
+        alert("Email inválido");
         return;
     }
 
