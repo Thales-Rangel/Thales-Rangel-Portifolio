@@ -42,6 +42,18 @@
     }
 }
 
+@media screen and (max-width: 580px){
+    .lenguages img{
+        width: 60px !important;
+    }
+}
+
+@media screen and (max-width: 680px) and (min-width: 581px) {
+    .lenguages img {
+        width: 70px !important;
+    }
+}
+
 @media screen and (max-width: 781px) {
     header {
         padding-top: 120px !important;
@@ -80,13 +92,14 @@
         padding: 0 !important;
     }
 
-    .table {
-        display: block;
-        width: 100%;
+    .lenguages img {
+        @media screen and (min-width: 681px){
+            width: 80px !important;
+            
+        }
     }
 
-    .card,
-    .table div {
+    .card {
         width: 100% !important;
     }
 
@@ -155,6 +168,10 @@
 
     .headline p {
         text-align: center !important;
+    }
+
+    .lenguages img {
+        width: 90px;
     }
 }
 
