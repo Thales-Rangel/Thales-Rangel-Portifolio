@@ -203,31 +203,6 @@ header {
     width: 80%;
 }
 
-.table {
-    outline: 2px solid #1d232c;
-    margin: 0 2.5%;
-    width: 75%;
-    display: flex;
-    background-color: #040506;
-    box-shadow: 8px 10px black;
-    margin-bottom: 5%;
-}
-
-.table h4 {
-    margin-top: 10px;
-}
-
-.table p {
-    width: 100%;
-
-}
-
-.table div {
-    width: 33%;
-    border: 1px solid #646970;
-}
-
-
 .card {
     border: 1px solid #1d232c;
     width: 35%;
