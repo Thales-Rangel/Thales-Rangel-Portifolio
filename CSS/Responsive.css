@@ -28,7 +28,7 @@
         text-align: center;
     }
 
-    .lenguages {
+    .conhecimentos .lenguages {
         display: none;
     }
 
@@ -43,13 +43,13 @@
 }
 
 @media screen and (max-width: 580px){
-    .lenguages img{
+    .conhecimentos .lenguages img{
         width: 60px !important;
     }
 }
 
 @media screen and (max-width: 680px) and (min-width: 581px) {
-    .lenguages img {
+    .conhecimentos .lenguages img {
         width: 70px !important;
     }
 }
@@ -92,7 +92,7 @@
         padding: 0 !important;
     }
 
-    .lenguages img {
+    .conhecimentos .lenguages img {
         @media screen and (min-width: 681px){
             width: 80px !important;
             
@@ -170,7 +170,7 @@
         text-align: center !important;
     }
 
-    .lenguages img {
+    .conhecimentos .lenguages img {
         width: 90px;
     }
 }
