@@ -244,9 +244,12 @@ header {
 
 .card .lenguages{
     justify-content: right;
+    width: 90%;
+    margin: 0 5%;
+    max-height: 30px;
 }
 .card .lenguages img {
-    width: 7%;
+    width: 8%;
     padding: 0;
 }
 
@@ -261,7 +264,9 @@ header {
 .card a{
     color: blue;
     cursor: pointer;
-    width: 100%;
+}
+.card a:hover{
+    text-decoration: underline;
 }
 
 .card .projectButton {
@@ -271,6 +276,7 @@ header {
     text-decoration: none;
     background-color: blue;
     padding: 10px 0;
+    text-decoration: none !important;
 }
 
 .projectButton:hover {
