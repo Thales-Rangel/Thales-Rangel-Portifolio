@@ -203,47 +203,34 @@ header {
     width: 80%;
 }
 
-.table {
-    outline: 2px solid #1d232c;
-    margin: 0 2.5%;
-    width: 75%;
+.project-cards{
     display: flex;
-    background-color: #040506;
-    box-shadow: 8px 10px black;
-    margin-bottom: 5%;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
-
-.table h4 {
-    margin-top: 10px;
-}
-
-.table p {
-    width: 100%;
-
-}
-
-.table div {
-    width: 33%;
-    border: 1px solid #646970;
-}
-
 
 .card {
     border: 1px solid #1d232c;
     width: 35%;
     min-height: 271px;
-    margin-left: 2.5%;
     margin-bottom: 5%;
-    margin-right: 2.5%;
     background-color: #090b0f;
     border-radius: 5px;
     box-shadow: 8px 10px black;
-    padding-bottom: 20px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 .card:hover {
     box-shadow: none;
     box-shadow: 0px 0px 2px 2px rgb(216, 230, 237);
+}
+
+.card img{
+    width: 100%;
+    border-radius: 5px;
 }
 
 .card h4 {
@@ -252,13 +239,44 @@ header {
 
 .card p {
     width: 100%;
+    margin: 5px;
 }
 
-.projectButton {
+.card .lenguages{
+    justify-content: right;
+    width: 90%;
+    margin: 0 5%;
+    max-height: 30px;
+}
+.card .lenguages img {
+    width: 8%;
+    padding: 0;
+}
+
+.ver-projeto{
+    width: 100%;
+    padding: 20px 0;
+    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card a{
+    color: blue;
+    cursor: pointer;
+}
+.card a:hover{
+    text-decoration: underline;
+}
+
+.card .projectButton {
+    width: 45%;
+    margin: 0 27.5%;
     color: white;
     text-decoration: none;
     background-color: blue;
-    padding: 10px 25px;
+    padding: 10px 0;
+    text-decoration: none !important;
 }
 
 .projectButton:hover {

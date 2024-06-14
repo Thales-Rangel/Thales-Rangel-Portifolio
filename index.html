@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icone_site.ico" type="image/x-icon">
+    <title>Thales Rangel | Desenvolvolvedor web</title>
+
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="CSS/Responsive.css">
+</head>
+
+<body>
+    <nav>
+        <div class="name">
+            <a href="index.html">
+                <h1>Thales Rangel</h1>
+            </a>
+        </div>
+
+        <div class="menu">
+            <img src="img/menu.png" alt="" id="dropdown-menu">
+
+            <div class="dropdown">
+                <a href="#Sobre-mim">Sobre mim</a>
+                <a href="#Projetos">Projetos</a>
+                <a href="#Conhecimentos">Conhecimentos</a>
+                <a href="https://www.instagram.com/thales.dev/" id="contactButton">Entre em Contato</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <header>
+            <div class="headline">
+                <h2>Thales Rangel</h2>
+                <p>Estudante de informática, com foco em desenvolvimento full-stack</p>
+
+                <a href="https://www.instagram.com/thales.dev/" class="headline-bnt">Entre em contato</a>
+                <a href="#Projetos" class="headline-bnt" id="viewPort">Ver Portifólio ↴</a>
+            </div>
+            <div class="headline-img">
+                <img src="img/Ilustracao.png" alt="">
+            </div>
+        </header>
+
+        <section class="about-me" id="Sobre-mim">
+            <div class="about-me-img">
+                <img src="img/Sobre-mim-img.jpg" alt="">
+            </div>
+
+            <div class="about-me-text">
+                <h3>Sobre Mim</h3>
+                <p>Estudante de informática, atualmente com domínio em HTML, CSS, JavaScript e Java, também possuindo
+                    conhecimentos
+                    básicos em C++ e Python.</p>
+                <p>Planejo me aperfeiçoar ainda mais na área de programação, principalmente no desenvolvimento de
+                    softtwares
+                    e Web.</p>
+                <p>Pretendo melhorar como desenvolvedor full-stack.</p>
+            </div>
+        </section>
+
+        <section class="projects" id="Projetos">
+            <h3>Projetos</h3>
+            <p>Meus projetos desenvolvidos, tanto de forma ocasional quanto para trabalhos acadêmicos.</p>
+
+            <div class="project-cards">
+                <div class="card">
+                    <img src="img/Portfolio Img.png" alt="">
+    
+                    <h4>Portfólio</h4>
+    
+                    <p>Meu portfólio pessoal para apresentar meus trabalhos de desenvolvedor fullstack, com um layout intuitivo e responsivo para aparelhos moveis, mostrando minhas habilidades com a parte do front-end.</p>
+    
+                    <div class="lenguages">
+                        <img src="img/HTML.png"> <img src="img/CSS.png"> <img src="img/JavaScript.png">
+                    </div>
+    
+                    <div class="ver-projeto">
+                        <a href="https://thales-rangel.github.io/Thales-Rangel-Portifolio/" class="projectButton" target="_blank">Ver Projeto</a>
+                        <br>
+                        <a href="http://github.com/Thales-Rangel/Thales-Rangel-Portifolio" target="_blank">Ver no GitHub</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/Site para Lanchonete Img.png" alt="">
+                    <h4>Site para Lanchonete</h4>
+                    <p>Site desenvolvido para uma lanchonete fictícia, onde se tem promoções que variam de acordo com o dia
+                        da semana.<span id="pontos1">....</span></p>
+    
+    
+                    <span id="mais1" style="display: none;">
+                        <p>O site é responsivo e compativel com todo tipo de dispositivo movel.
+                        </p>
+                        <p>Esse projeto demonstra minhas habilidades com páginas de visualização, tornando elas compativeis
+                            com
+                            a maioria dos dispositivos (notebooks, desktops, tablets, celulares), além da minhas habilidades
+                            para criar funções com JavaScript para navegação no site, ou para alterar a aparência de
+                            acordo com o dia da semana.</p>
+                    </span>
+                    <a onclick="mostrarMais('mais1', 'pontos1', this)" style="color: white;">Leia Mais</a>
+    
+                    <div class="lenguages">
+                        <img src="img/HTML.png"> <img src="img/CSS.png"> <img src="img/JavaScript.png">
+                    </div>
+                    <div class="ver-projeto">
+                        <a href="https://thales-rangel.github.io/Site-para-lanchonete/" class="projectButton"
+                            target="_blank">Ver Projeto</a>
+                        <br>
+                        <a href="https://github.com/Thales-Rangel/Site-para-lanchonete" target="_blank">Ver no GitHub</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/Projeto PABD.png" alt="">
+
+                    <h4>Controle de Atendimento de Alunos</h4>
+
+                    <p>Este projeto foi desenvolvido por meio dos meus estudos de Banco de Dados. Se trata de um sistema capaz de gerenciar dúvidas e solicitações de alunos para professores.<span id="pontos2">....</span></p>
+
+                    <span id="mais2" style="display: none;">
+                        <p>O sistema é capaz de armazenar dados de alunos, professores, turmas, disciplinas e solicitações em um banco de dados MySQL, onde é possivel cadastrar e remover cada um desses, além de buscar por diversos mecânismos de busca.</p>
+
+                        <p>Este projeto é capaz de mostrar minhas habilidades com Java e com Banco de Dados MySQL, além de minhas habilidades com gestão de usuários e de criação de interface gráfica com Java.</p>
+                    </span>
+
+                    <a onclick="mostrarMais('mais2', 'pontos2', this)" style="color: white;">Leia Mais</a>
+
+                    <div class="lenguages">
+                        <img src="img/Java.png"> <img src="img/MySQL.png">
+                    </div>
+                    
+                    <p>*No momento só está disponível o código no GitHub*</p>
+                    <div class="ver-projeto">
+                        <a href="https://github.com/Thales-Rangel/Controle-de-Atendimento-de-Alunos-V2" class="projectButton" target="_blank">Ver Projeto (GitHub)</a>
+                    </div>
+                </div>
+                
+        </section>
+
+        <section class="conhecimentos" id="Conhecimentos">
+            <h3>Conhecimentos</h3>
+            <p>Atualmente eu tenho um bom dominio em HTML, CSS, JavaScript, Java e Banco de Dados com MySQL, também
+                tenho certo conhecimento com Python e C++ mas esses eu ainda estou me aprimorando.</p>
+
+            <div class="lenguages">
+                <img id="html" src="img/HTML.png" alt="HTML logo">
+                <img id="css" src="img/CSS.png" alt="CSS logo">
+                <img id="javascript" src="img/JavaScript.png" alt="JavaScript logo">
+                <img id="java" src="img/Java.png" alt="Java logo">
+                <img id="mysql" src="img/MySQL.png" alt="MySQL logo">
+                <img id="python" src="img/Python.png" alt="Python logo">
+                <img id="cpp" src="img/Cpp.png" alt="C++ logo">
+            </div>
+        </section>
+
+        <footer>
+            <div class="form">
+                <h2>Vamos desenvolver um projeto juntos?</h2>
+
+                <p>Entre em contato pela DM do meu Instagram:</p>
+
+                <a href="https://www.instagram.com/thales.dev/" id="formButton">Entre em contato →</a>
+            </div>
+
+            <div class="contatos">
+                <div id="perfis">
+                    <h2>Perfis</h2>
+                    <a href="https://github.com/Thales-Rangel" target="_blank">GitHub</a>
+                </div>
+
+                <div id="contatos">
+                    <h2>Contato</h2>
+
+                    <p>E-mail</p>
+                    <a href="mailto:thalesranDev2024@gmail.com?subject=&body="
+                        target="_blank">thalesranDev2024@gmail.com</a>
+
+                    <p>Instagram</p>
+                    <a href="https://www.instagram.com/thales.dev/" target="_blank">@Thales.Dev</a>
+                </div>
+            </div>
+
+            <div id="copyright">
+                <p>© 2024 Thales Rangel. Todos os direitos reservados</p>
+                <a href="#">Voltar ao topo ↺</a>
+            </div>
+        </footer>
+    </main>
+
+    <script src="JS/Script.js"></script>
+</body>
+
+</html>
